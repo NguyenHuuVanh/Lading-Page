@@ -1,0 +1,10 @@
+.spin {
+  transition: all 0.25s linear;
+}
+.darkmode-input:checked + div .spin {
+  transform: translateX(50px);
+}
+
+.darkmode-input:checked + div {
+  background-color: #2c3e50;
+}
